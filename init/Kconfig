@@ -2066,3 +2066,11 @@ if 64BIT
 source "init/Kconfig.gki"
 source "init/Kconfig.gki-debug"
 endif
+
+menu "BrokeStar"
+
+config ARCH_ORYON
+	bool
+	default y
+
+endmenu
