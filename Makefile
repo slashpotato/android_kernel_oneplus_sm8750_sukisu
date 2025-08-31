@@ -858,6 +858,8 @@ endif # need-config
 
 KBUILD_CFLAGS	+= -fno-delete-null-pointer-checks
 
+KBUILD_CFLAGS += -mcpu=oryon-1
+
 ifdef CONFIG_CC_OPTIMIZE_FOR_PERFORMANCE_O3
 KBUILD_CFLAGS += -O3
 KBUILD_RUSTFLAGS += -Copt-level=3
