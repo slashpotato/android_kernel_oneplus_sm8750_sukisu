@@ -177,3 +177,5 @@ sphinx_*/
 /rust-project.json
 *.orig
 *.rej
+*.cover
+*.mbx
