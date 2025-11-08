@@ -342,6 +342,7 @@
   device_match_fwnode
   device_match_name
   device_match_of_node
+  device_node_to_regmap
   device_property_present
   device_property_read_string
   device_property_read_u16_array
@@ -414,6 +415,7 @@
   devm_platform_ioremap_resource
   devm_power_supply_register
   devm_qcom_smem_state_get
+  devm_register_sys_off_handler
   devm_regmap_del_irq_chip
   devm_regmap_field_alloc
   devm_regmap_field_bulk_alloc
